@@ -7,4 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    host: '0.0.0.0', // This makes the server accessible on all network interfaces.
+  }
 });
