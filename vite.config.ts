@@ -8,7 +8,8 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   server: {
-    host: '0.0.0.0', // Ensures the server is accessible on all network interfaces
-    port: Number(process.env.PORT) || 3000, // Convert process.env.PORT to a number or fallback to 3000
+    host: '0.0.0.0',  // Ensures the server is accessible on all network interfaces
+    port: Number(process.env.PORT) || 3000,  // Binds to the port specified by the environment variable
+    allowedHosts: ['company-incop.onrender.com'],  // Add the allowed host here
   }
 });
