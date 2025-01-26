@@ -8,6 +8,7 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   server: {
-    host: '0.0.0.0', // This makes the server accessible on all network interfaces.
+    host: '0.0.0.0', // Ensures the server is accessible on all network interfaces
+    port: Number(process.env.PORT) || 3000, // Convert process.env.PORT to a number or fallback to 3000
   }
 });
