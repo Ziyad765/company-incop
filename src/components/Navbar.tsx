@@ -13,7 +13,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <Building2 className="h-8 w-8 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">IncorpPro</span>
+              <span className="text-xl font-bold text-gray-900">Bigin EeZee</span>
             </Link>
           </div>
 
